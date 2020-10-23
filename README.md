@@ -7,9 +7,10 @@ This is a simple proof of concept Jupyter to web-app, using a FastAI (Pytorch ba
 The classification is simply<br> 
 *bengal / other / cartoon*
 
-The startup of the "mybinder.org" app can take some time, so be patient. I have already generated a *mybinder* here:
-
-https://notebooks.gesis.org/binder/jupyter/user/docminus-bengal-ai-classifier-uc55kugf/voila/render/bengal_vs_cats_app.ipynb
+The startup of the "mybinder.org" app can take some time, so be patient. Enter the following:<br>
+Github: https://github.com/DocMinus/bengal-ai-classifier<br>
+tags: main<br>
+path (url, not file): /voila/render/bengal_vs_cats_app.ipynb<br>
 
 Note to self:<br>
 *requirements.txt* is necessaryfor mybinder to work. Also requires the tag "main" to work properly.
