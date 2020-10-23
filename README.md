@@ -13,3 +13,7 @@ https://notebooks.gesis.org/binder/jupyter/user/docminus-bengal-ai-classifier-uc
 
 Note to self:<br>
 *requirements.txt* is necessaryfor mybinder to work. Also requires the tag "main" to work properly.
+
+More edit:<br>
+*export.pkl* is the model file.
+*tmp.jpg* is cat picture to test if one doesn't have one handy.
