@@ -1,6 +1,8 @@
 # bengal-ai-classifier
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DocMinus/bengal-ai-classifier/main?urlpath=%2Fvoila%2Frender%2F%20bengal_vs_cats_app.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DocMinus/bengal-ai-classifier/main?urlpath=%2Fvoila%2Frender%2Fbengal_vs_cats_app.ipynb)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DocMinus/bengal-ai-classifier/main?filepath=bengal_vs_cats_app.ipynb)
 
 *Click on the icon for running this app directly! The startup of the "mybinder.org" app can take some time, so be patient!*
 
@@ -32,7 +34,8 @@ As mentioned, the startup of the "mybinder.org" app can take some time, so be pa
 
 ## Issues
 For some reason, mybinder throws an error and this doesn't work anymore. I am not sure if this is due to the large file system or something different.<br>
-Meaning, if someone wants to test this, you will have to do the local Jupyter version.
+Meaning, if someone wants to test this, you will have to do the local Jupyter version. Testing different ipynb names, yml file instead of requirement file...
+
 
 ## Kudos
 Based on [fast.ai](https://www.fast.ai/).
