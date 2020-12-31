@@ -1,0 +1,9 @@
+name: fastbook
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pytorch[version='>=1.6']
+  - torchvision
+  - python[version='>=3.6']
+prefix: /home/alex/anaconda3/envs/fastbook
