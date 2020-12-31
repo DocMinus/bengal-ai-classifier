@@ -1,7 +1,5 @@
 # bengal-ai-classifier
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DocMinus/bengal-ai-classifier/main?urlpath=%2Fvoila%2Frender%2Fbengal_vs_cats_app.ipynb)
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DocMinus/bengal-ai-classifier/main?filepath=bengal_vs_cats_app.ipynb)
 
 *Click on the icon for running this app directly! The startup of the "mybinder.org" app can take some time, so be patient!*
@@ -11,9 +9,6 @@ This is a simple proof of concept Jupyter to web-app, using a FastAI (Pytorch ba
 The classification is simply<br> 
 *bengal / other / cartoon*
 
-Note to self:<br>
-*requirements.txt* is necessaryfor mybinder to work. Also requires the tag "main" to work properly.
-
 More edit:<br>
 - *export.pkl* is the model file.
 - *tmp.jpg* is cat picture to test if one doesn't have one handy.
@@ -22,9 +17,9 @@ More edit:<br>
 
 ## How to run
 
-This is mainly intended to be run as a binder app. 
-You could also download the repo and run the Jupyter Notebook in your environment direclty (though I suggest you use a fresh Anaconda environmnet and installing the fastai package, see requirements.txt) or you can simply click on the "launch-binder" icon.
-This can also be done manually, by going to [MyBinder.org](https://mybinder.org) and fill out the form:
+This is mainly intended to be run as a binder app by clicking on above "BinderOrg" icon. 
+You could also download the repo and run the Jupyter Notebook in a Conda environment (see requirements.txt).
+Yet another otion would be manually by going to [MyBinder.org](https://mybinder.org) and fill out the form:
 
 Enter the following:<br>
 Github: https://github.com/DocMinus/bengal-ai-classifier <br>
@@ -39,3 +34,20 @@ Meaning, if someone wants to test this, you will have to do the local Jupyter ve
 
 ## Kudos
 Based on [fast.ai](https://www.fast.ai/).
+
+## Note to self
+*requirements.yml* file that works:
+
+name: fastai
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip
+  - pytorch[version='>=1.6']
+  - torchvision
+  - python[version='>=3.6']
+  - pip:
+    - fastai>2.1
+
+alternatively *requirements.txt* 
