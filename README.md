@@ -15,12 +15,15 @@ More edit:<br>
 - update: new model file. slightly better bengal detection
 - update: use of GIT LFS for large files due to pkl > 25MB
 - update: type on binder link corrected, requirements corrected.
+- update: model creation file added.
 
 ## How to run
 
-This is mainly intended to be run as a binder app by clicking on above "launchBinder" icon. 
-You could also download the repo and run the Jupyter Notebook in a Conda environment (see requirements.txt, or the .yml file mentioned below).
-Yet another option would be manually by going to [MyBinder.org](https://mybinder.org) and fill out the form:
+This is mainly intended to be run as a binder app by clicking on above "launchBinder" icon.<br>
+
+For the more advnaced/interested:<br> 
+You could also download the repo and run the Jupyter Notebook in a Conda environment (see requirements.txt, or the .yml file mentioned below).<br>
+Yet another option would be manually by going to [MyBinder.org](https://mybinder.org) and fill out the form:<br>
 
 Enter the following:<br>
 Github: https://github.com/DocMinus/bengal-ai-classifier <br>
@@ -28,8 +31,11 @@ tags: main <br>
 path (url, not file): bengal_vs_cats_app.ipynb <br>
 As mentioned, the startup of the "mybinder.org" app can take some time, so be patient 
 
+<br>
+Also included: Jupyter notebook with the acutal model-creation (bengal_vs_cats_model_creation.ipynb), for completness sake. Not linked / guaranteed to work with Binder.
+
 ## Issues
-None anymore.
+None that I am aware of.
 
 ## Kudos
 Based on [fast.ai](https://www.fast.ai/).
