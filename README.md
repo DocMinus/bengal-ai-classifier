@@ -14,12 +14,13 @@ More edit:<br>
 - *tmp.jpg* is cat picture to test if one doesn't have one handy.
 - update: new model file. slightly better bengal detection
 - update: use of GIT LFS for large files due to pkl > 25MB
+- update: type on binder link corrected, requirements corrected.
 
 ## How to run
 
-This is mainly intended to be run as a binder app by clicking on above "BinderOrg" icon. 
+This is mainly intended to be run as a binder app by clicking on above "launchBinder" icon. 
 You could also download the repo and run the Jupyter Notebook in a Conda environment (see requirements.txt, or the .yml file mentioned below).
-Yet another otion would be manually by going to [MyBinder.org](https://mybinder.org) and fill out the form:
+Yet another option would be manually by going to [MyBinder.org](https://mybinder.org) and fill out the form:
 
 Enter the following:<br>
 Github: https://github.com/DocMinus/bengal-ai-classifier <br>
@@ -28,15 +29,13 @@ path (url, not file): bengal_vs_cats_app.ipynb <br>
 As mentioned, the startup of the "mybinder.org" app can take some time, so be patient 
 
 ## Issues
-For some reason, mybinder throws an error and this doesn't work anymore. I am not sure if this is due to the large file system or something different.<br>
-Meaning, if someone wants to test this, you will have to do the local Jupyter version. Testing different ipynb names, yml file instead of requirement file...
-
+None anymore.
 
 ## Kudos
 Based on [fast.ai](https://www.fast.ai/).
 
 ## Note to self
-*requirements.yml* file that works:
+*requirements.yml* file that works (missing Voila though, should be added as well):
 
 name: fastai
 channels:
