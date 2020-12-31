@@ -1,0 +1,6 @@
+voila
+fastai>=2
+pillow
+packaging
+ipywidgets>=7.5
+
