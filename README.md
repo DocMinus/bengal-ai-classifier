@@ -20,7 +20,8 @@ More edit:<br>
 
 ## How to run
 
-You can either download the repo and run the Jupyter Notebook in your environment direclty (though I suggest you use a fresh Anaconda environmnet) or you can simply click on the "launch-binder" icon.
+This is mainly intended to be run as a binder app. 
+You could also download the repo and run the Jupyter Notebook in your environment direclty (though I suggest you use a fresh Anaconda environmnet and installing the fastai package, see requirements.txt) or you can simply click on the "launch-binder" icon.
 This can also be done manually, by going to [MyBinder.org](https://mybinder.org) and fill out the form:
 
 Enter the following:<br>
