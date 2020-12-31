@@ -18,3 +18,5 @@ Note to self:<br>
 More edit:<br>
 *export.pkl* is the model file.
 *tmp.jpg* is cat picture to test if one doesn't have one handy.
+*update: new model file. slightly better bengal detection
+*update: use of GIT LFS for large files due to pkl > 25MB
