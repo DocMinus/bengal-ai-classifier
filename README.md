@@ -18,13 +18,13 @@ More edit:<br>
 ## How to run
 
 This is mainly intended to be run as a binder app by clicking on above "BinderOrg" icon. 
-You could also download the repo and run the Jupyter Notebook in a Conda environment (see requirements.txt).
+You could also download the repo and run the Jupyter Notebook in a Conda environment (see requirements.txt, or the .yml file mentioned below).
 Yet another otion would be manually by going to [MyBinder.org](https://mybinder.org) and fill out the form:
 
 Enter the following:<br>
 Github: https://github.com/DocMinus/bengal-ai-classifier <br>
 tags: main <br>
-path (url, not file): /voila/render/bengal_vs_cats_app.ipynb <br>
+path (url, not file): bengal_vs_cats_app.ipynb <br>
 As mentioned, the startup of the "mybinder.org" app can take some time, so be patient 
 
 ## Issues
@@ -50,4 +50,4 @@ dependencies:
   - pip:
     - fastai>2.1
 
-alternatively *requirements.txt* 
+alternatively, use the current *requirements.txt* , this also includes Voila to allow for direct running of the code.
